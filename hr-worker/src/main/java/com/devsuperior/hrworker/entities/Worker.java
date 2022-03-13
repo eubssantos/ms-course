@@ -1,10 +1,8 @@
 package com.devsuperior.hrworker.entities;
 
-import org.springframework.web.bind.annotation.GetMapping;
-
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Objects;
+
 
 @Entity
 @Table(name = "tb_worker")
